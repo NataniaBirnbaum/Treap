@@ -96,6 +96,7 @@ class Treap(object):
             self.__heapify(cur.rightChild) 
             
     # delete a node with key k by rotating it down until it is a leaf.
+    # TODO: fix this?
     def delete(self, k):
         # cur will be the node to be deleted, and prev is its parent
         cur = self.__root
